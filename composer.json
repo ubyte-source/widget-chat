@@ -1,0 +1,26 @@
+{
+  "name": "widget/chat",
+  "type": "library",
+  "description": "Javascript widget chat",
+  "keywords": [
+    "ubyte",
+    "client-side",
+    "widget",
+    "chat"
+  ],
+  "homepage": "https://github.com/energia-source/widget-chat",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paolo Fabris",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Chat\\": "lib/"
+    }
+  }
+}

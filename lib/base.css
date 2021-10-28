@@ -1,0 +1,19 @@
+div.chat { background-image: url(chat.png); border: 1px solid #cecece; }
+div.chat h2.header { margin-top: 16px; }
+div.chat h2.header, div.chat h2.footer { padding: 4px; } 
+
+div.chat article.body { padding: 16px 0; }
+div.chat article.body p.message { padding: 8px; }
+div.chat article.body p.message a.picture { float: left; }
+div.chat article.body p.message a.picture { width: 48px; height: 48px; cursor: pointer; }
+div.chat article.body p.message a.picture { white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis; }
+div.chat article.body p.message a.picture { background-color: #f00; border-radius: 50%; }
+div.chat article.body p.message a.picture img { width: 48px !important; }
+div.chat article.body p.message ul.paragraphs { padding-bottom: 8px; border-radius: 8px; }
+div.chat article.body p.message ul.paragraphs { margin-left: 64px; background-color: #f1f1f1; border: 1px solid #cecece; }
+
+div.chat article.body p.message.me, div.chat article.body p.message.me a.picture { float: right; }
+div.chat article.body p.message.me ul.paragraphs { margin-right: 64px; }
+div.chat article.body p.message.me ul.paragraphs { background-color: #e8f4ff; border: 1px solid #4787ed; }
+
+div.chat article.body p.message ul.paragraphs li { padding: 8px 8px 0 8px; }
