@@ -1,6 +1,6 @@
-#### Documentation widget-chat
+# Documentation widget-chat
 
-> Widget Javascript Chat is a library used to create a sort of chat between multiple users.
+Widget Javascript Chat is a library used to create a sort of chat between multiple users.
 
 ## Usage
 
@@ -21,7 +21,7 @@ document.appendChild(chat.out());
 
 ## Structure
 
-- library:
+library:
     - [window.Chat](https://github.com/energia-source/widget-chat#class-windowchat-usable-methods)
     - [window.Chat.Body](https://github.com/energia-source/widget-chat#class-windowchatbody-usable-methods)
     - [window.Chat.Body.Picture](https://github.com/energia-source/widget-chat#class-windowchatbodypicture-usable-methods)
@@ -30,7 +30,9 @@ document.appendChild(chat.out());
     - [window.Chat.Body.Message.Line](https://github.com/energia-source/widget-chat#class-windowchatbodymessageline-usable-methods)
     - [window.Chat.Loader](https://github.com/energia-source/widget-chat#class-windowchatloader-usable-methods)
 
-## ***Class window.Chat usable methods***
+<br>
+
+#### ***Class window.Chat usable methods***
 
 ##### `constructor()`
 
@@ -107,7 +109,9 @@ Remove an element from the DOM
  * **Parameters:** `element` — The element to remove from the DOM.
  * **Returns:** The return value is a boolean value.
 
-## ***Class window.Chat.Body usable methods***
+<br>
+
+#### ***Class window.Chat.Body usable methods***
 
 ##### `static prepend()`
 
@@ -160,7 +164,9 @@ Returns the HTML container for the chart
 
  * **Returns:** The container element.
 
-## ***Class window.Chat.Body.Picture usable methods***
+<br>
+
+#### ***Class window.Chat.Body.Picture usable methods***
 
 ##### `static expression()`
 
@@ -224,7 +230,9 @@ Get the value of the current node and return it as a string
  * **Returns:** The value of the variable.
 
 
-## ***Class window.Chat.Body.Picture.Initials usable methods***
+<br>
+
+#### ***Class window.Chat.Body.Picture.Initials usable methods***
 
 ##### `static size()`
 
@@ -276,7 +284,9 @@ Get the SVG string and encode it as a base64 string
  * **Returns:** The SVG image as a base64 encoded string.
 
 
-## ***Class window.Chat.Body.Message usable methods***
+<br>
+
+#### ***Class window.Chat.Body.Message usable methods***
 
 ##### `static whoami()`
 
@@ -353,7 +363,9 @@ Get the container of the current node
 
  * **Returns:** The container element.
 
-## ***Class window.Chat.Body.Message.Line usable methods***
+<br>
+
+#### ***Class window.Chat.Body.Message.Line usable methods***
 
 ##### `constructor(message)`
 
@@ -397,7 +409,9 @@ Create a span element with a class name and a text node
    * `classname` — The classname of the element.
  * **Returns:** The `content` function returns a `span` element with a `class` attribute.
 
-## ***Class window.Chat.Loader usable methods***
+<br>
+
+#### ***Class window.Chat.Loader usable methods***
 
 ##### `static style()`
 
@@ -451,6 +465,19 @@ Remove the button from the DOM and remove the button's CSS from the page
 ## Built With
 
 * [Javascript](https://www.javascript.com/) - Javascript
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/energia-source/widget-chat/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting us pull requests.
+
+## Versioning
+
+We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/energia-source/widget-chat/tags). 
+
+## Authors
+
+* **Paolo Fabris** - *Initial work* - [energia-europa.com](https://www.energia-europa.com/)
+* **Gabriele Luigi Masero** - *Developer* - [energia-europa.com](https://www.energia-europa.com/)
 
 ## License
 
