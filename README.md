@@ -22,13 +22,13 @@ document.appendChild(chat.out());
 ## Structure
 
 library:
-    - [window.Chat](https://github.com/energia-source/widget-chat#class-windowchat-usable-methods)
-    - [window.Chat.Body](https://github.com/energia-source/widget-chat#class-windowchatbody-usable-methods)
-    - [window.Chat.Body.Picture](https://github.com/energia-source/widget-chat#class-windowchatbodypicture-usable-methods)
-    - [window.Chat.Body.Picture.Initials](https://github.com/energia-source/widget-chat#class-windowchatbodypictureinitials-usable-methods)
-    - [window.Chat.Body.Message](https://github.com/energia-source/widget-chat#class-windowchatbodymessage-usable-methods)
-    - [window.Chat.Body.Message.Line](https://github.com/energia-source/widget-chat#class-windowchatbodymessageline-usable-methods)
-    - [window.Chat.Loader](https://github.com/energia-source/widget-chat#class-windowchatloader-usable-methods)
+- [window.Chat](https://github.com/energia-source/widget-chat#class-windowchat-usable-methods)
+- [window.Chat.Body](https://github.com/energia-source/widget-chat#class-windowchatbody-usable-methods)
+- [window.Chat.Body.Picture](https://github.com/energia-source/widget-chat#class-windowchatbodypicture-usable-methods)
+- [window.Chat.Body.Picture.Initials](https://github.com/energia-source/widget-chat#class-windowchatbodypictureinitials-usable-methods)
+- [window.Chat.Body.Message](https://github.com/energia-source/widget-chat#class-windowchatbodymessage-usable-methods)
+- [window.Chat.Body.Message.Line](https://github.com/energia-source/widget-chat#class-windowchatbodymessageline-usable-methods)
+- [window.Chat.Loader](https://github.com/energia-source/widget-chat#class-windowchatloader-usable-methods)
 
 <br>
 
